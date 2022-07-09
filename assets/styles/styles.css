@@ -198,3 +198,37 @@ body {
     margin-right: 0;
     margin-left: 0;
 }
+
+/* Media queries for header section */
+
+@media screen and (max-width: 950px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+    .header .left-side p {
+        padding-top: -1rem;
+        margin-top: -1rem;
+    }
+
+    .header .right-side {
+        padding-top: -1rem;
+        margin-top: -1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .header {
+        margin-top: 2px;
+    }
+
+    .header .left-side h1 {
+        font-size: 3rem;
+        padding-top: -1rem;
+        margin-top: -1rem;
+    }
+
+    .header .left-side p {
+        font-size: 2rem;
+    }
+}
