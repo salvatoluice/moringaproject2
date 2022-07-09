@@ -33,6 +33,12 @@
 
 } */
 
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+
 .navbar {
     width: 100%;
     display: flex;
@@ -53,9 +59,9 @@
 
 .navbar-logo h1 {
     color: #fff;
-    font-weight: normal;
-    font-size: 30px;
-    margin-left: 30px;
+    font-weight: 600;
+    font-size: 48px;
+    margin-left: 4rem;
     font-family: 'Oleo Script', cursive;
 }
 
@@ -76,10 +82,54 @@
 .navbar-links ul li {
     list-style: none;
     font-size: 24px;
+    font-weight: 300;
     color: #fff;
     margin-left: 2rem;
+    transition: 0.5s ease;
+}
+
+.navbar-links ul li:hover{
+    cursor: pointer;
+    border-bottom: 3px solid #ED661F;
+    color: #ED661F;
+}
+
+.navbar-links ul li.active {
+    border-bottom: 3px solid #ED661F;
 }
 
 .navbar-login {
-    flex: 1;
+    /* flex: 1; */
+    margin-right: 5rem;
+}
+
+.navbar-login a {
+    font-size: 24px;
+    font-weight: 300;
+    color: #fff;
+    margin-right: 4rem;
+    transition: 0.5s ease;
+    border-bottom: none;
+    text-decoration: none;
+}
+
+.navbar-login a:hover {
+    color: #ED661F;
+}
+
+.navbar-login button {
+    padding: 1rem;
+    background-color: #ED661F;
+    color: #fff;
+    font-size: 24px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: o.5s ease;
+}
+
+.navbar-login button:hover {
+    background-color: #fff;
+    color: #ED661F;
 }
