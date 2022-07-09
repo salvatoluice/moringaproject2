@@ -312,3 +312,136 @@ body {
         flex-direction: column;
     }
 } */
+
+
+
+.categories {
+    display: flex;
+    flex-direction: column;
+}
+
+.categories .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.intro h1 {
+    color: #000;
+    font-size: 3.5rem;
+    font-weight: 500;
+}.intro > div {
+    background: #ED661F;
+    height: 3px;
+    width: 150px;
+    margin-top: -2rem;
+}
+
+.intro p {
+    font-size: 1.8rem;
+    font-weight: normal;
+}
+
+.categories-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.items-popular {
+    display: flex;
+    flex-direction: row;
+    padding-top: 2rem;
+    width: 98%;
+    margin: auto;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.items-carrots img {
+    width: 250px;
+    height: 250px;
+}
+.items-cereals img {
+    width: 250px;
+    height: 250px;
+}
+
+.items-fish img {
+    width: 250px;
+    height: 250px;
+}
+.items-sukuma img {
+    width: 250px;
+    height: 250px;
+}
+
+.items-head {
+    font-size: 2rem;
+    color: #000;
+    margin-left: 9rem;
+    width: 90%;
+    margin-bottom: 0;
+}
+
+.items-head .demo {
+    height: 3px;
+    width: 110px;
+    justify-content: flex-start;
+    margin-left: 6rem;
+    background: #ED661F;
+}
+
+.items-head h2 {
+    font-size: 2rem;
+    color: #000;
+    margin-left: 6rem;
+    margin-bottom: 0;
+}
+
+.items-popular h2 {
+    font-size: 2rem;
+    color: #000;
+    margin-left: 6rem;
+    margin-bottom: 2rem;
+}
+
+/* .items-popular .demo {
+    height: 3px;
+    width: 150px;
+    justify-content: flex-start;
+    margin-top: -2rem;
+    background: #ED661F;
+} */
+
+
+.items-new {
+    display: flex;
+    flex-direction: row;
+    padding-top: 2rem;
+    width: 98%;
+    margin: auto;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.items-chicken img {
+    width: 250px;
+    height: 250px;
+}
+
+.items-rice img {
+    width: 250px;
+    height: 250px;
+}
+
+.items-milk img {
+    width: 250px;
+    height: 250px;
+}
+
+.items-tomato img {
+    width: 250px;
+    height: 250px;
+}
