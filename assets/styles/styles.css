@@ -580,7 +580,7 @@ body {
     margin: auto;
     height: 400px;
     margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -627,4 +627,12 @@ form button {
     color: #fff;
     font-size: 16px;
     padding: 10px 20px;
+}
+
+footer {
+    background: #000;
+    width: 90%;
+    height: 550px;
+    margin: auto;
+    margin-bottom: 1rem;
 }
