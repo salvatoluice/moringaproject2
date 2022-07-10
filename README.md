@@ -2,7 +2,7 @@
 
 # This is a demo of a produce buying and selling landing page
 
-#   USAGE
+  Usage
 
 # This web page is deigne dmainly for connecting harvesters, farmers and buyers.
 # I mainly focuses on connecting producers to potential buyers.
@@ -13,13 +13,14 @@
 
 # The template was created inside Moringa school, no full functionality has been implimented yet.
 
-# This is my second project at Moringa school. 
+# This is the second independent project at Moringa school, week 2. 
 
 
 
     Installation
 
 # since its just a demo project, no installation procedures are provided herein.
+# Its just a simple basic landing page of marketing agricultural produce 
 
     Configuration
 
