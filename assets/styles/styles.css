@@ -571,3 +571,60 @@ body {
     /* background-color: #ED661F; */
     /* background: #ED661F; */
 }
+
+/* contacts section styling */
+
+.contacts {
+    background: #000;
+    width: 90%;
+    margin: auto;
+    height: 400px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    padding-top: 5rem;
+}
+
+.contacts h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.contacts p {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    font-family: 'Inter', sans-serif;
+}
+
+form {
+    display: flex;
+    margin: auto;
+    width: fit-content;
+}
+
+form input {
+    border: 0;
+    background: #fff;
+    outline: none;
+    padding-left: 20px;
+    height: 50px;
+    width: 400px;
+    font-size: 16px;
+}
+
+form button { 
+    background: #ED661F;
+    border: none;
+    outline: none;
+    height: 53.5px;
+    width: 150px;
+    cursor: pointer;
+    padding-left: 0;
+    margin-left: 0;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+}
