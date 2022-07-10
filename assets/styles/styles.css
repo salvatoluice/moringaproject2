@@ -489,11 +489,6 @@ body {
 }
 
 
-.blog .blog-1 i  {
-    font-size: 100px;
-    margin-left: 4rem;
-    color: #ED661F;
-}
 
 .blog .blog-1 {
     width: 400px;
@@ -501,4 +496,78 @@ body {
     border-radius: 6px;
     border: 2px solid rgb(151, 149, 149);
     border-top: 1px solid #fff;
+}
+
+.blog-1_star {
+    display: flex;
+    flex-direction: row;
+}
+
+.blog-1_star i  {
+    display: block;
+    font-size: 500px;
+    margin-left: 2rem;
+    color: #ED661F;
+}
+
+.container-p {
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container-p p {
+    font-size: 18px;
+    margin-left: 1rem;
+    font-weight: bold;
+}
+
+.blog-1 h2 {
+    margin-left: 2rem;
+    font-size: 2.5rem;
+}
+
+.reviews a {
+    font-size: 30px;
+    justify-content: flex-end;
+    margin-right: 2rem;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: right;
+    margin-left: 1650px;
+}
+
+.reviews .line {
+    width: 80px;
+    height: 4px;
+    background: #ED661F;
+    text-align: right;
+    justify-content: flex-end;
+    margin-left: 1650px;
+}
+
+.reviews .img-icon {
+    color: #ED661F;
+    height: 30px;
+    width: 120px;
+    margin-left: 0;
+    left: 0;
+    padding-left: 0;
+}
+
+.reviews .img-icon img {
+    color: #ED661F;
+    height: 10px;
+    width: 10px;
+    background: #ED661F;
+}
+ .reviews i {
+    display: block;
+    font-size: 100px;
+    margin-left: 2rem;
+    color: #ED661F;
+    /* background-color: #ED661F; */
+    /* background: #ED661F; */
 }
