@@ -501,6 +501,12 @@ body {
 .blog-1_star {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2.5rem;
+    padding-top: 2rem;
+    font-size: 20px;
 }
 
 .blog-1_star i  {
@@ -629,10 +635,254 @@ form button {
     padding: 10px 20px;
 }
 
+/* footer section styling */
+
 footer {
     background: #000;
     width: 90%;
-    height: 550px;
+    height: 600px;
     margin: auto;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    gap: 3rem;
+    padding: 3rem 4rem;
+}
+
+.container-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer_icons {
+    padding: 2rem 2rem 2rem 0;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.footer_icons svg {
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.footer_icons svg:hover {
+    color: #ED661F;
+}
+
+.footer_info {
+    flex: 1;
+}
+
+.footer_info h1 {
+    font-size: 4rem;
+}
+
+.footer_info p {
+    font-size: 1.1rem;
+    font-weight: normal;
+}
+
+.stores {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    top: 4rem;
+}
+
+.app  {
+    background: #fff;
+    height: 70px;
+    width: 170px;
+    border-radius: 9px;
+    transition: 0.5s ease;
+}
+
+.app:hover {
+    background: #ED661F;
+    cursor: pointer;
+}
+.app svg {
+    align-items: center;
+    padding-top: 30px;
+}
+
+.app h4 {
+    font-size: 11px;
+    color: #000;
+    margin-top: -3rem;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.app h2 {
+    font-style: 20px;
+    color: #000;
+    margin-top: 0rem;
+    text-align: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.play  {
+    background: #fff;
+    height: 70px;
+    width: 170px;
+    border-radius: 9px;
+}
+
+.play:hover {
+    background: #ED661F;
+    cursor: pointer;
+}
+
+.play svg {
+    align-items: center;
+    padding-top: 30px;
+}
+
+.play h4 {
+    font-size: 11px;
+    color: #000;
+    margin-top: -3rem;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.play h2 {
+    font-style: 18px;
+    color: #000;
+    margin-top: 0rem;
+    text-align: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer_links {
+    display: flex;
+    flex: 2;
+    gap: 7rem;
+    flex-direction: row;
+    margin-left: 0;
+    padding-left: 0;
+    justify-content: flex-start;
+    text-align-last: left;
+}
+
+.footer_links .company h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.footer_links .company ul {
+    margin-left: 0;
+    text-align-last: left;
+    justify-content: flex-start;
+    left: 0;
+}
+
+.footer_links .company ul li{
+    margin-left: 0;
+    padding-left: 0;
+    text-align-last: left;
+    justify-content: flex-start;
+    font-size: 24px;
+    list-style: none;
+    left: 0;
+    padding-top: 16px;
+    font-weight: lighter;
+    transition: 0.5s ease;
+}
+
+.footer_links .company ul li a {
+    margin-left: -1.7rem;
+    justify-content: flex-start;
+    text-align-last: left;
+    padding-left: 0;
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none;
+}
+.footer_links .company ul li a:hover {
+    color: #ED661F;
+}
+
+.footer_links .products h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.footer_links .products ul li{
+    margin-left: 0;
+    padding-left: 0;
+    text-align-last: left;
+    justify-content: flex-start;
+    font-size: 24px;
+    list-style: none;
+    left: 0;
+    padding-top: 16px;
+    font-weight: lighter;
+    transition: 0.5s ease;
+}
+
+.footer_links .products ul li a {
+    margin-left: -1.7rem;
+    justify-content: flex-start;
+    text-align-last: left;
+    padding-left: 0;
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.footer_links .products ul li a:hover {
+    color: #ED661F;
+}
+
+
+.footer_links .others h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.footer_links .others ul li{
+    margin-left: 0;
+    padding-left: 0;
+    text-align-last: left;
+    justify-content: flex-start;
+    font-size: 24px;
+    list-style: none;
+    left: 0;
+    padding-top: 16px;
+    font-weight: lighter;
+    transition: 0.5s ease;
+}
+
+.footer_links .others ul li a {
+    margin-left: -1.7rem;
+    justify-content: flex-start;
+    text-align-last: left;
+    padding-left: 0;
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.footer_links .others ul li a:hover {
+    color: #ED661F;
+}
+
+.container-2 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-2 p {
+    font-size: 1.8rem;
+    font-weight: bold;
 }
