@@ -1,5 +1,7 @@
 # AgriPlus
 
+# This is a demo of a produce buying and selling landing page
+
 #   USAGE
 
 # This web page is deigne dmainly for connecting harvesters, farmers and buyers.
